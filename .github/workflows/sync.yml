@@ -50,8 +50,9 @@ jobs:
           SECRETS: |
             ^SYNCED_
           REPOSITORIES: |
-            ^guitarrapc/docker.*
             ^guitarrapc/AgonesPod
+            ^guitarrapc/docker.*
+            ^guitarrapc/dotnet-lab
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN_REPO }}
           DRY_RUN: false
         env:
