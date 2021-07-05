@@ -1,5 +1,6 @@
 name: Sync
 on:
+  workflow_dispatch:
   schedule:
     # https://crontab.guru/#*/0 * * * *
     - cron: "0 * * * *"
