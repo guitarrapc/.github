@@ -18,6 +18,7 @@ jobs:
           SECRETS: |
             ^SYNCED_
           REPOSITORIES: |
+            ^guitarrapc/AgonesSample
             ^guitarrapc/docker-aws-cli
             ^guitarrapc/docker-bicep
             ^guitarrapc/githubactions-lab
