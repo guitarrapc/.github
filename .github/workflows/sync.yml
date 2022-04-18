@@ -56,6 +56,7 @@ jobs:
           REPOSITORIES: |
             ^guitarrapc/AgonesPod
             ^guitarrapc/AgonesSample
+            ^guitarrapc/csharp-lab
             ^guitarrapc/docker.*
             ^guitarrapc/dotnet-lab
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN_REPO }}
