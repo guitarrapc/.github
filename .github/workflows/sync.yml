@@ -22,6 +22,7 @@ jobs:
             ^guitarrapc/docker-aws-cli
             ^guitarrapc/docker-bicep
             ^guitarrapc/githubactions-lab
+            ^guitarrapc/SkiaSharp.QrCode
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN_REPO }}
           DRY_RUN: false
         env:
