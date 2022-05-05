@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <!-- NuGet -->
+    <PackageVersion>$(Version)</PackageVersion>
+    <Authors>guitarrapc</Authors>
+    <Company />
+    <Copyright>guitarrapc</Copyright>
+    <Description>Description</Description>
+    <PackageProjectUrl>https://github.com/guitarrapc/REPOSITORY</PackageProjectUrl>
+    <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>tag1, tag2, tag3</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+</Project>
