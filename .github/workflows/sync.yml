@@ -60,6 +60,7 @@ jobs:
             ^guitarrapc/csharp-lab
             ^guitarrapc/docker.*
             ^guitarrapc/dotnet-lab
+            ^guitarrapc/go-lab
           GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN_REPO }}
           DRY_RUN: false
         env:
