@@ -19,6 +19,7 @@ jobs:
             ^SYNCED_
           REPOSITORIES: |
             ^guitarrapc/AgonesSample
+            ^guitarrapc/csharp-lab
             ^guitarrapc/docker-aws-cli
             ^guitarrapc/docker-bicep
             ^guitarrapc/docker-ubuntu-mingw-w64
@@ -28,6 +29,7 @@ jobs:
           DRY_RUN: false
         env:
           SYNCED_GITHUB_TOKEN_REPO: ${{ secrets.GITHUBTOKEN_REPO }}
+          
       - name: sync nuget key
         uses: google/secrets-sync-action@v1.4.1
         with:
@@ -50,6 +52,7 @@ jobs:
           # no synchronization
           #SYNCED_RUN_ID: ${{ github.run_id }}
           SYNCED_NUGET_KEY: ${{ secrets.NUGET_KEY }}
+          
       - name: sync docker user/pass
         uses: google/secrets-sync-action@v1.4.1
         with:
@@ -67,6 +70,7 @@ jobs:
         env:
           SYNCED_DOCKER_USER: ${{ secrets.DOCKER_USER }}
           SYNCED_DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
+          
       - name: sync powershell nuget
         uses: google/secrets-sync-action@v1.4.1
         with:
