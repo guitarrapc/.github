@@ -19,7 +19,6 @@ jobs:
             ^SYNCED_
           REPOSITORIES: |
             ^guitarrapc/AgonesSample
-            ^guitarrapc/csharp-lab
             ^guitarrapc/docker-aws-cli
             ^guitarrapc/docker-bicep
             ^guitarrapc/docker-ubuntu-mingw-w64
