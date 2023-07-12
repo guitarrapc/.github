@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: sync github api
-        uses: google/secrets-sync-action@v1.4.1
+        uses: jpoehnelt/secrets-sync-action@v1.4.1
         with:
           SECRETS: |
             ^SYNCED_
@@ -30,7 +30,7 @@ jobs:
           SYNCED_GITHUB_TOKEN_REPO: ${{ secrets.GITHUBTOKEN_REPO }}
           
       - name: sync nuget key
-        uses: google/secrets-sync-action@v1.4.1
+        uses: jpoehnelt/secrets-sync-action@v1.4.1
         with:
           SECRETS: |
             ^SYNCED_
@@ -53,7 +53,7 @@ jobs:
           SYNCED_NUGET_KEY: ${{ secrets.NUGET_KEY }}
           
       - name: sync docker user/pass
-        uses: google/secrets-sync-action@v1.4.1
+        uses: jpoehnelt/secrets-sync-action@v1.4.1
         with:
           SECRETS: |
             ^SYNCED_
@@ -71,7 +71,7 @@ jobs:
           SYNCED_DOCKER_PASS: ${{ secrets.DOCKER_PASS }}
           
       - name: sync powershell nuget
-        uses: google/secrets-sync-action@v1.4.1
+        uses: jpoehnelt/secrets-sync-action@v1.4.1
         with:
           SECRETS: |
             ^SYNCED_
