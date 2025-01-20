@@ -19,6 +19,7 @@ jobs:
             ^SYNCED_
           REPOSITORIES: |
             ^guitarrapc/AgonesSample
+            ^guitarrapc/ClrProfiler
             ^guitarrapc/docker-aws-cli
             ^guitarrapc/docker-bicep
             ^guitarrapc/docker-ubuntu-mingw-w64
@@ -38,6 +39,7 @@ jobs:
             ^guitarrapc/AgonesPod
             ^guitarrapc/AgonesSdkCsharp
             ^guitarrapc/Base64UrlCore
+            ^guitarrapc/ClrProfiler
             ^guitarrapc/CsProjEditor
             ^guitarrapc/DirectoryPropSwitch
             ^guitarrapc/KustomizeConfigMapGenerator
